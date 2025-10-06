@@ -1,0 +1,95 @@
+<div class="column-layout group">
+  <igx-navbar class="navbar">
+    <igx-navbar-action>
+      <button igxIconButton="flat" igxRipple [igxToggleAction]="navDrawer">
+        <igx-icon>
+          menu
+        </igx-icon>
+      </button>
+    </igx-navbar-action>
+    <igx-navbar-title class="navbar-content">
+      <h6 class="h6">
+        My Mobile app
+      </h6>
+    </igx-navbar-title>
+    <button igxIconButton="flat" igxRipple>
+      <igx-icon>
+        search
+      </igx-icon>
+    </button>
+    <button igxIconButton="flat" igxRipple>
+      <igx-icon>
+        favorite
+      </igx-icon>
+    </button>
+    <button igxIconButton="flat" igxRipple>
+      <igx-icon>
+        more_vert
+      </igx-icon>
+    </button>
+  </igx-navbar>
+  <div class="row-layout group">
+    <igx-nav-drawer [isOpen]="true" [pin]="true" width="320px" #navDrawer class="nav-drawer">
+      <ng-template igxDrawer>
+        <div igxDrawerItem igxRipple>
+          <igx-icon class="icon">
+            account_circle
+          </igx-icon>
+          <span>Title goes here</span>
+        </div>
+        <div igxDrawerItem igxRipple>
+          <igx-icon class="icon">
+            account_circle
+          </igx-icon>
+          <span>Title goes here</span>
+        </div>
+        <div igxDrawerItem igxRipple>
+          <igx-icon class="icon">
+            account_circle
+          </igx-icon>
+          <span>Title goes here</span>
+        </div>
+      </ng-template>
+    </igx-nav-drawer>
+    <div class="column-layout group">
+      <div class="row-layout group_1">
+        <div class="column-layout group_2">
+          <div class="row-layout group_3">
+            <h2 class="h2">
+              1
+            </h2>
+          </div>
+          <div class="row-layout group_3">
+            <h2 class="h2">
+              2
+            </h2>
+          </div>
+        </div>
+        <div class="column-layout group_2">
+          <div class="row-layout group_3">
+            <h2 class="h2">
+              3
+            </h2>
+          </div>
+          <div class="row-layout group_3">
+            <h2 class="h2">
+              4
+            </h2>
+          </div>
+        </div>
+        <div class="column-layout group_2">
+          <div class="row-layout group_3">
+            <h2 class="h2">
+              5
+            </h2>
+          </div>
+          <div class="row-layout group_3">
+            <h2 class="h2">
+              6
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
