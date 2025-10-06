@@ -1,5 +1,9 @@
 # Responsive Fluid Layout
 
+https://zdrawku.github.io/responsive-fluid-layout
+
+<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/c1dd1d20-2d5a-412b-a38c-2cd85c201340" />
+
 This project was generated with [App Builder Code Gen](https://www.appbuilder.dev/platform).
 
 ## Development server
